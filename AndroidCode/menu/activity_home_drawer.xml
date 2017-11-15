@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Create Reminder" />
+        <item
+            android:id="@+id/nav_preferences"
+            android:visible="false"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Enter Preferences" />
+        <item
+            android:id="@+id/nav_generatecode"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Unique Code" />
+
+        <item
+            android:id="@+id/nav_addcode"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Add Unique Code" />
+
+        <item
+            android:id="@+id/nav_Groupmembers"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Group members" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/nav_yourpreferences"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                android:visible="false"
+                android:title="Your Preferences" />
+
+            <item
+                android:id="@+id/nav_showpreferences"
+                android:visible="false"
+                android:icon="@android:drawable/ic_menu_mapmode"
+                android:title="Suggestions" />
+
+            <item
+                android:id="@+id/nav_suggestions"
+                android:visible="false"
+                android:icon="@android:drawable/ic_menu_upload"
+                android:title="Near by locations" />
+
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

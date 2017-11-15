@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:tag="cabout">
+
+        <com.location.reminder.CircularTextView
+            android:id="@+id/faicon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="test"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:typeface="sans"></com.location.reminder.CircularTextView>
+
+        <com.location.reminder.TextView_Lato
+            android:id="@+id/preference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/parentimage"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Intro"
+            android:textSize="16sp"
+            android:typeface="sans"></com.location.reminder.TextView_Lato>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/remidnerdatalayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recycle_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/reminder_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            tools:text="" />
+
+
+        <TextView
+            android:id="@+id/reminder_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            tools:text="" />
+
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="@color/colorOrange"
+            tools:text="" />
+
+        <Button
+            android:id="@+id/mapview"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:text="Navigate"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

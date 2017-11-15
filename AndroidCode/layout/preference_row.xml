@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:tag="cabout">
+
+    <com.location.reminder.CircularTextView
+        android:id="@+id/faicon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="test"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:typeface="sans"></com.location.reminder.CircularTextView>
+
+    <com.location.reminder.TextView_Lato
+        android:id="@+id/preference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parentimage"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Intro"
+        android:textSize="16sp"
+        android:typeface="sans"></com.location.reminder.TextView_Lato>
+</LinearLayout>
